@@ -29,7 +29,7 @@ java -jar ViaProxy.jar cli
 [16:58:59] [main/INFO] (ViaProxy) Binding proxy server to 0.0.0.0:25568
 [16:59:03] [Via Async Scheduler 0/INFO] (ViaVersion) Finished mapping loading, shutting down loader executor.
 ```
-如果出现[16:59:04] [ForkJoinPool.commonPool-worker-1/WARN] (ViaProxy) You are running an outdated version of ViaProxy!的提示可以不必理会，这只是新版本检测。
+如果出现`[16:59:04] [ForkJoinPool.commonPool-worker-1/WARN] (ViaProxy) You are running an outdated version of ViaProxy!`的提示可以不必理会，这只是新版本检测。
 ### 配置
 接下来输入exit退出viaproxy，在第一次运行后，它应该创建了一些文件。
 输入`ls`命令查看当前文件夹内的文件，如果viaproxy真的运行成功了，应该会有以下文件
@@ -38,3 +38,9 @@ ViaLoader  ViaProxy.jar  jars  logs  plugins  saves.json  start.sh  viaproxy.yml
 ```
 输入`nano viaproxy.yml`编辑配置。
 通常来说，我们只需要修改其中的一小部分就好了（你可以根据自己需要自行修改部分配置）。
+```
+bind-address: 0.0.0.0:25568  #将其中的0.0.0.0替换为你想运行minecraft的设备ip地址，如果viafabric与minecraft在同一设备上运行，请改为127.0.0.1
+target-address: 127.0.0.1:25565  #将127.0.0.1:25565替换为你想要连接的服务器地址
+target-version: Auto Detect (1.7+ servers)  #将Auto Detect (1.7+ servers)替换为你的服务器版本
+```
+再次运行start.sh，在确保没有影响运行的报错后viaproxy就算配置完成了。
