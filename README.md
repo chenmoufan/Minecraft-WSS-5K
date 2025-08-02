@@ -44,3 +44,8 @@ target-address: 127.0.0.1:25565  #将127.0.0.1:25565替换为你想要连接的�
 target-version: Auto Detect (1.7+ servers)  #将Auto Detect (1.7+ servers)替换为你的服务器版本
 ```
 再次运行start.sh，在确保没有影响运行的报错后viaproxy就算配置完成了。
+## 配置游戏本体
+### 启动器下载
+这里选用hmcl启动器，因为我们需要用到hmcl启动器的高级配置选项，请确保你的设备安装了javafx和java17。你可以通过`https://hmcl.huangyuhui.net/download/`下载，对于不能忍受城通网盘的人，你也可以到
+### 启动器配置（如果你在x86架构上运行minecraft，你可以跳过这一步）
+对于使用aarch64架构处理器的设备（如树莓派，香橙派）你需要补全
