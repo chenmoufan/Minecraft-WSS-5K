@@ -1,0 +1,42 @@
+1，Wurst
+https://www.wurstclient.net/updates/wurst-7-49/?mc=1.20.1
+它虽然是一个外挂，但是在项目中我们只使用它来自动复活（你肯定不想手动在电脑旁按复活键的吧）
+2，AutoReconnect
+https://modrinth.com/mod/autoreconnect
+用于自动重连和进服自动执行指令
+3，Baritone
+https://github.com/cabaletta/baritone/releases/download/v1.10.3/baritone-api-fabric-1.10.3.jar
+已经选好版本了，访问后应该会直接开始下载
+4，Cloth Config API
+https://www.mcmod.cn/download/2346.html
+AutoReconnect的前置配置模组
+5，Fabric API
+相信你已经下载好了，如果未下载可以在启动器中直接下载
+6，Fabric Language Kotlin
+https://www.mcmod.cn/class/2126.html
+这里需要1.12.3版本，如果版本不对会报错的
+7，Forge Config API Port
+https://www.mcmod.cn/class/5510.html#google_vignette
+忘记干什么的了
+8，Forge Config Screens/Config Menus for Forge
+https://www.mcmod.cn/class/5220.html
+忘记干什么的了
+9，Masa's Litemod Library
+https://www.mcmod.cn/class/2298.html
+也简称为malilib，忘记需不需要装了
+10，Mod Menu
+https://www.mcmod.cn/class/4088.html
+该模组可以让你方便的修改配置
+11，Open Parties and Claims
+https://www.mcmod.cn/class/7945.html
+一个模组依赖项
+-----------以下是选装模组
+12，Xaero的小地图
+https://www.mcmod.cn/class/1701.html
+提供小地图，当然你也可以使用旅行地图
+13，Xaero的地图增强
+https://www.mcmod.cn/class/11298.html
+对xaero二件套提供更多功能，需要至少安装xaero二件套中的任意一件才能启用
+14，Xaero的世界地图
+https://www.mcmod.cn/class/1483.html
+提供世界地图
