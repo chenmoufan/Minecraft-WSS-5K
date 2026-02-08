@@ -26,7 +26,7 @@ java -jar ViaProxy.jar cli
 [16:58:44] [main/INFO] (ViaProxy) Initializing ViaProxy CLI v3.4.0 (git-ViaProxy-3.4.0:1a6580b) (Injected using Launcher Agent)...
 [16:58:44] [main/INFO] (ViaProxy) Using java version: OpenJDK 64-Bit Server VM 21.0.8 (Ubuntu) on Linux
 ......
-[16:58:59] [main/INFO] (ViaProxy) Binding proxy server to 0.0.0.0:25568
+[16:58:59] [main/INFO] (ViaProxy) Binding proxy server to xxx.xxx.xxx.xxx:25568
 [16:59:03] [Via Async Scheduler 0/INFO] (ViaVersion) Finished mapping loading, shutting down loader executor.
 ```
 如果出现`[16:59:04] [ForkJoinPool.commonPool-worker-1/WARN] (ViaProxy) You are running an outdated version of ViaProxy!`的提示可以不必理会，这只是新版本检测。
@@ -57,4 +57,12 @@ target-version: Auto Detect (1.7+ servers)  #将Auto Detect (1.7+ servers)替换
 java -jar hmcl.jar
 ```
 待启动器启动后，点击启动游戏，如果启动成功了，那么恭喜你；不过失败是常有的事，你应该打开bing开始通过java给你的报错来判断问题所在。如果你发现这个问题是由于该文档误导了你，请提交一个issue给我。
-现在你的游戏应该启动了，
+现在你的游戏应该启动了，下面我们开始配置模组
+### 模组配置
+在本文中，配置模组通常在由模组菜单中进行配置，只有极少部分模组需要使用指令或模组自带的界面配置。如果你的游戏正确加载了模组，那么在游戏的标题界面（即有Minecraft大字的页面）应该会出现一个写着“模组”二字的按钮，点击它，你就进入了模组列表。在模组列表中，你应该能看到部分模组，不必怀疑是否是模组未正确加载，这是正常现象。
+#### AutoReconnect
+我们使用该模组实现自动重连功能，下文我会介绍为什么不使用wurst自带的自动重连。显然AutoReconnect是支持在重连后自动发送消息的，
+
+
+
+未完工。。。。。我的端炸了
